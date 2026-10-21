@@ -1,0 +1,17 @@
+{
+  "name": "iuran-rt01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplikasi Iuran RT 01 berbasis HTML dengan Firebase",
+  "scripts": {
+    "build:android": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/assets": "^3.0.5"
+  }
+}
