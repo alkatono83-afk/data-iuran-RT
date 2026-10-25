@@ -28,11 +28,16 @@ jobs:
           distribution: temurin
           java-version: "21"
 
+     
       - name: Pasang dependensi
         run: npm install
 
+      - name: Pasang TypeScript
+        run: npm install --save-dev typescript
+
       - name: Buat proyek Android
         run: npx cap add android
+
 
       - name: Terapkan ikon aplikasi
         run: npx capacitor-assets generate --android
