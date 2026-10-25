@@ -32,8 +32,10 @@ jobs:
       - name: Pasang dependensi
         run: npm install
 
+     
       - name: Pasang TypeScript
-        run: npm install --save-dev typescript
+        run: npm install --save-dev typescript@5.9.3
+
 
       - name: Buat proyek Android
         run: npx cap add android
